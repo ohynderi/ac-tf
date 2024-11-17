@@ -1,6 +1,6 @@
 provider "aci" {
   username = "${var.APIC_USR}"
-  password = "${var.APIC_PWD}"
+  password = "${var.APIC_PSW}"
   url      = "${var.APIC_URL}"
   insecure = true
 }
