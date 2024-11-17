@@ -1,11 +1,11 @@
-variable "apic_username" {
+variable "APIC_USR" {
   type=string
 }
 
-variable "apic_password" {
+variable "APIC_PWD" {
   type=string
 }
 
-variable "apic_url" {
+variable "APIC_URL" {
   type=string
 }
